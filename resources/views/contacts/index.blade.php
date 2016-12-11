@@ -15,7 +15,7 @@
         <div class="clearfix"></div>
         <div class="box box-primary">
             <div class="box-body">
-                    {!! $dataTable !!}
+                     @include('contacts.table')
             </div>
         </div>
     </div>
