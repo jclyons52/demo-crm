@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index');
 Route::resource('customers', 'CustomerController');
 
 Route::resource('contacts', 'ContactController');
+
+Route::resource('leads', '\App\leads\Http\Controllers\LeadController');

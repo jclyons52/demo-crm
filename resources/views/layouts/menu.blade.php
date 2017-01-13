@@ -6,3 +6,7 @@
     <a href="{!! route('contacts.index') !!}"><i class="fa fa-edit"></i><span>Contacts</span></a>
 </li>
 
+<li class="{{ Request::is('leads*') ? 'active' : '' }}">
+    <a href="{!! route('leads.index') !!}"><i class="fa fa-edit"></i><span>Leads</span></a>
+</li>
+

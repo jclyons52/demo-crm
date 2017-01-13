@@ -13,23 +13,23 @@ return [
 
         'migration'         => base_path('database/migrations/'),
 
-        'model'             => app_path('Models/'),
+        'model'             => app_path('leads/Models/'),
 
-        'datatables'        => app_path('DataTables/'),
+        'datatables'        => app_path('leads/DataTables/'),
 
-        'repository'        => app_path('Repositories/'),
+        'repository'        => app_path('leads/Repositories/'),
 
         'routes'            => base_path('routes/web.php'),
 
         'api_routes'        => base_path('routes/api.php'),
 
-        'request'           => app_path('Http/Requests/'),
+        'request'           => app_path('leads/Http/Requests/'),
 
-        'api_request'       => app_path('Http/Requests/API/'),
+        'api_request'       => app_path('leads/Http/Requests/API/'),
 
-        'controller'        => app_path('Http/Controllers/'),
+        'controller'        => app_path('leads/Http/Controllers/'),
 
-        'api_controller'    => app_path('Http/Controllers/API/'),
+        'api_controller'    => app_path('leads/Http/Controllers/API/'),
 
         'test_trait'        => base_path('tests/traits/'),
 
@@ -55,19 +55,19 @@ return [
 
     'namespace' => [
 
-        'model'             => 'App\Models',
+        'model'             => 'App\leads\Models',
 
-        'datatables'        => 'App\DataTables',
+        'datatables'        => 'App\leads\DataTables',
 
-        'repository'        => 'App\Repositories',
+        'repository'        => 'App\leads\Repositories',
 
-        'controller'        => 'App\Http\Controllers',
+        'controller'        => 'App\leads\Http\Controllers',
 
-        'api_controller'    => 'App\Http\Controllers\API',
+        'api_controller'    => 'App\leads\Http\Controllers\API',
 
-        'request'           => 'App\Http\Requests',
+        'request'           => 'App\leads\Http\Requests',
 
-        'api_request'       => 'App\Http\Requests\API',
+        'api_request'       => 'App\leads\Http\Requests\API',
     ],
 
     /*

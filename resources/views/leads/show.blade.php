@@ -3,24 +3,17 @@
 @section('content')
     <section class="content-header">
         <h1>
-            Customer
+            Lead
         </h1>
     </section>
     <div class="content">
         <div class="box box-primary">
             <div class="box-body">
                 <div class="row" style="padding-left: 20px">
-                    @include('customers.show_fields')
-                    <a href="{!! route('customers.index') !!}" class="btn btn-default">Back</a>
-                </div>
-                <br/>
-                <br/>
-                <br/>
-                <div class="row" >
-                   @include('contacts.table')
+                    @include('leads.show_fields')
+                    <a href="{!! route('leads.index') !!}" class="btn btn-default">Back</a>
                 </div>
             </div>
         </div>
     </div>
-
 @endsection

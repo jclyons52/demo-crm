@@ -21,3 +21,5 @@ Route::get('/user', function (Request $request) {
 Route::resource('customers', 'CustomerAPIController');
 Route::resource('customers.contacts', 'Customers\CustomerContactsController');
 Route::resource('contacts', 'ContactAPIController');
+
+Route::resource('leads', '\App\leads\Http\API\LeadAPIController');
